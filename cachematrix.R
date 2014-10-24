@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## this function  create a special matrix, which is a list
+##containing function to set, get the matrix,set, get the reverse matrix
 makeCacheMatrix <- function(x = matrix()) {
 elc<-NULL
 set<-FUNCTION(Y){
@@ -18,6 +20,9 @@ getreverse=getreverse)
 
 
 ## Write a short comment describing this function
+## if the reverse is already exist, this function return the message
+## and the value of reverse matrix, if not, it caculate it.
+
 
 cacheSolve <- function(x, ...) {
 elc<-x$getreverse()
